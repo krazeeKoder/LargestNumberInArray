@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FindHighestNumber.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSArray *inputArray = @[@44, @5, @6, @3, @99, @555];
+        
+        FindHighestNumber *biggestNumber = [[FindHighestNumber alloc] findHighestNumber:inputArray];
+        
+        NSLog(@"The largest number in the array is %@", biggestNumber);
+
+        
+        return 0;
     }
-    return 0;
 }

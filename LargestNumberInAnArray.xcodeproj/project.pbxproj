@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B36AECA1C33A4C100279B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B36AEC91C33A4C100279B39 /* main.m */; };
+		7B36AED51C3458EF00279B39 /* FindHighestNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B36AED41C3458EF00279B39 /* FindHighestNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7B36AEC61C33A4C100279B39 /* LargestNumberInAnArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LargestNumberInAnArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B36AEC91C33A4C100279B39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B36AED31C3458EF00279B39 /* FindHighestNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindHighestNumber.h; sourceTree = "<group>"; };
+		7B36AED41C3458EF00279B39 /* FindHighestNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindHighestNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7B36AEC91C33A4C100279B39 /* main.m */,
+				7B36AED31C3458EF00279B39 /* FindHighestNumber.h */,
+				7B36AED41C3458EF00279B39 /* FindHighestNumber.m */,
 			);
 			path = LargestNumberInAnArray;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B36AED51C3458EF00279B39 /* FindHighestNumber.m in Sources */,
 				7B36AECA1C33A4C100279B39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
